@@ -1,0 +1,56 @@
+/* Main container setup */
+.main-container {
+    display: flex;
+    background-color: #f6f8fa; /* Light gray background */
+    min-height: calc(100vh - 56px);
+}
+
+/* Title styling */
+.main-title {
+    font-size: 2rem;
+    color: #24292e; /* Dark text similar to GitHub */
+    margin-bottom: 20px;
+}
+
+/* Side navigation styles */
+.side-nav {
+    /* width: 200px; */
+    background-color: #24292e; /* Dark sidebar background */
+    padding: 20px;
+    /* border-radius: 8px; */
+    margin-right: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    display: block;
+    color: #cdd9e5; /* Light gray text for links */
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover {
+    background-color: #444d56; /* Darker hover effect */
+    color: #ffffff; /* White text on hover */
+}
+
+.nav-link:focus{
+    background-color: #0366d6; /* Blue active state */
+    color: #ffffff; /* White text for active link */
+    font-weight: bold;
+}
+
+/* Content area styles */
+.content-area {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for content */
+}
